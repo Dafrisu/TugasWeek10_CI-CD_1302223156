@@ -23,5 +23,8 @@ public class Counter {
 	public int getCount() {
 		return count;
 	}
-	
+	public String countToString(){
+            String toString = Integer.toStrings(count);
+            return toString;
+        }
 }
