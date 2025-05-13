@@ -13,7 +13,7 @@ public class Counter {
 	}
 	
 	public void increment() {
-		count++;
+		count = count + 1;
 	}
 	
 	public void decrement() {
@@ -23,6 +23,7 @@ public class Counter {
 	public int getCount() {
 		return count;
 	}
+        
 	public String countToString(){
             String toString = Integer.toString(count);
             return toString;
