@@ -24,7 +24,7 @@ public class Counter {
 		return count;
 	}
 	public String countToString(){
-            String toString = Integer.toStrings(count);
+            String toString = Integer.toString(count);
             return toString;
         }
 }
